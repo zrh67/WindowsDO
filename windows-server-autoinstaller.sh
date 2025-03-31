@@ -6,9 +6,9 @@ display_menu() {
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
-    echo "4. Windows 10"
-    echo "5. Windows 11"
-    echo "6. Windows 1021h2"
+    echo "4. Windows 10 21h2 Spectre"
+    echo "5. Windows 10 21H2 Spectre"
+    echo "6. Windows 11 23h2 Spectre"
     read -p "Enter your choice: " choice
 }
 
@@ -48,21 +48,21 @@ case $choice in
         ;;
     4)
         # Windows 10
-        img_file="windows10.img"
+        img_file="windows1021h2.img"
         iso_link="http://134.199.163.87/WIN10.iso"
-        iso_file="windows10.iso"
+        iso_file="windows1021h2.iso"
         ;;
     5)
         # Windows 11
-        img_file="windows11.img"
+        img_file="windows1022h2.img"
         iso_link="http://134.199.163.87/WIN11.iso"
-        iso_file="windows11.iso"
+        iso_file="windows1022h2.iso"
         ;;
     6)
         # Windows 1021h2
-        img_file="windows1021h2.img"
+        img_file="windows1123h2.img"
         iso_link="http://134.199.163.87/win1021H2.img"
-        iso_file="windows1021h2.iso"
+        iso_file="windows1123h2.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
