@@ -49,13 +49,13 @@ case $choice in
     4)
         # Windows 10
         img_file="windows1021h2.img"
-        iso_link="http://134.199.163.87/WIN10.iso"
+        iso_link="https://pavoreal.co.za/wp-content/uploads/OS/Windows10-21H2.iso"
         iso_file="windows1021h2.iso"
         ;;
     5)
         # Windows 11
         img_file="windows1022h2.img"
-        iso_link="http://134.199.163.87/WIN11.iso"
+        iso_link="https://pavoreal.co.za/wp-content/uploads/OS/Windows10-22H2.iso"
         iso_file="windows1022h2.iso"
         ;;
     6)
